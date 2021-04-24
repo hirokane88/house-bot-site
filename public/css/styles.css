@@ -11,12 +11,24 @@ body {
   background-color: #00050f;
 }
 
-.text-white {
-  color: #edf8ff;
+.activate-button {
+  margin-top: 15px;
 }
 
-.activate-button {
-  margin-top: 20px;
+.bg {
+  background-image: url("../images/ai1.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
 
 .inline-block {
@@ -28,41 +40,39 @@ body {
   width: 148px;
 }
 
-.input-div{
-  width: 100%;
-}
-
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
 .placeholder{
   color: #9e9e9e;
 }
 
 .spec {
   opacity: 90%;
-  padding: 10px 0px 5px;
+  padding-top: 6px;
   color: #dee7ff;
+  font-weight: 200;
+  font-size: 13px;
 }
 
-.bg {
-  background-image: url("../images/ai1.gif");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.text-muted {
+  margin-top: 10px;
 }
 
-#phone-input {
-  width: 196px;
-  display: inline-block
+.text-white {
+  color: #edf8ff;
+  font-weight: 600;
+  margin-bottom: 3px;
 }
 
 #carrier-input {
   width: 100px;
   display: inline-block;
+}
+
+
+#email-input {
+  margin-bottom: 2px;
+}
+
+#phone-input {
+  width: 196px;
+  display: inline-block
 }
