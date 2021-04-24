@@ -16,10 +16,10 @@
     <h1 class="h3 mb-3 fw-normal text-white">Sign Up For Housing Bot</h1>
       <div class="spec">PRICE</div>
       <input type="text" class="form-control input" placeholder="min" >
-      <input type="text" class="form-control input" placeholder="max">
+      <input type="text" class="form-control input" placeholder="max (required)">
       <div class="spec">BEDROOM</div>
       <select class="form-control input" name="" placeholder="min">
-        <option value="min">min</option>
+        <option value="0">min</option>
         <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -31,7 +31,7 @@
         <option value="8">8</option>
       </select>
       <select class="form-control input" name="">
-        <option value="max">max</option>
+        <option value="8">max</option>
         <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -44,7 +44,7 @@
       </select>
       <div class="spec">BATHROOM</div>
       <select class="form-control input" name="">
-        <option value="min">min</option>
+        <option value="0">min</option>
         <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -56,7 +56,7 @@
         <option value="8">8</option>
       </select>
       <select class="form-control input" name="">
-        <option value="max">max</option>
+        <option value="8">max</option>
         <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -71,7 +71,7 @@
       <input type="text" class="form-control" id = "email-input" placeholder="email@example.com OR">
       <input type="text" class="form-control input" id="phone-input" placeholder="phone number">
       <select class="form-control input" id="carrier-input">
-        <option value="0">carrier</option>
+        <option selected disabled value="0">carrier</option>
         <option value="0">Verizon</option>
         <option value="0">T-Mobile</option>
         <option value="0">AT&T</option>
@@ -84,9 +84,8 @@
         <option value="0">Tracfone</option>
         <option value="0">Republic</option>
         <option value="0">Google Fi</option>
-        <option value="0">U.S. Cell</option>
+        <option value="0">US Cell</option>
         <option value="0">Ting</option>
-        <option value="0">Consumer</option>
       </select>
       <button class="btn btn-lg btn-primary btn-block activate-button" type="submit">Activate My Bot!</button>
       <p class="mt-5 mb-3 text-muted">&copy; Camero Corp</p>
