@@ -1,3 +1,5 @@
+$("body").addClass("bg");
+
 $("select").addClass("placeholder");
 
 $("select").click(function() {
