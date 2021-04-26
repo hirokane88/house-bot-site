@@ -3,12 +3,12 @@ body {
   height: 100%;
 }
 
-body {
+.text-center {
+  height: 100%;
   display: flex;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #00050f;
 }
 
 .activate-button {
@@ -16,7 +16,20 @@ body {
 }
 
 .bg {
+  background-image: url("../images/ai4.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.logo {
+  font-family: Ubuntu;
+  font-weight: 700;
+  color: #dee7ff;
+  padding: 0;
+  margin: 30px 50px 0;
+  font-size: 30px;
 }
 
 .form-signin {
@@ -24,6 +37,7 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
+  margin-top: 1%;
 }
 
 .inline-block {
