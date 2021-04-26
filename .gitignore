@@ -1,4 +1,5 @@
 /pass
 /node_modules
+/images
 package-lock.json
 Procfile
