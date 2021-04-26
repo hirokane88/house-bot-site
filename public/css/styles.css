@@ -28,13 +28,6 @@ body {
   background-size: cover;
 }
 
-.header {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 .logo {
   font-family: Ubuntu;
   font-weight: 700;
