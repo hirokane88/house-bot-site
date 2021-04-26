@@ -10,11 +10,9 @@ app.get("/", function(req,res){
 });
 
 app.post("/", function(req, res){
-  var num1 = Number(req.body.maxRoom);
-  var num2 = Number(req.body.minRoom);
-  res.send("Max Rooms: " + num1 + "\nMin Rooms: " + num2 );
+
 });
 
 app.listen(process.env.PORT || 3000, function(){
-  console.log("Server is running on port 3000 mate.");
+  console.log("Server running on port 3000");
 });
