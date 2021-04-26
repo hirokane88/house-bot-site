@@ -28,15 +28,6 @@ body {
   background-size: cover;
 }
 
-.logo {
-  font-family: Ubuntu;
-  font-weight: 700;
-  color: #dee7ff;
-  padding: 0;
-  margin: 30px 50px 0;
-  font-size: 30px;
-}
-
 .form-signin {
   width: 100%;
   max-width: 330px;
@@ -87,5 +78,5 @@ body {
 
 #phone-input {
   width: 196px;
-  display: inline-block
+  display: inline-block;
 }
